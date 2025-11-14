@@ -11,5 +11,8 @@ wheels/
 .venv
 
 # drive files
+log.txt
 token.json
 client_secrets.json
+"test destination"
+"test source"

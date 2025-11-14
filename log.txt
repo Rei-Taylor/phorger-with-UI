@@ -1,10 +1,4 @@
- 2025-09-19 22:07:32,342 -  DEBUG -  Start of program
- 2025-09-19 22:07:32,342 -  DEBUG -  settings successfully loaded: {'source_filepath': 'E:\\Projects (Programming)\\Scripts\\Photo Organizer\\test source', 'destination_filepath': 'E:\\Projects (Programming)\\Scripts\\Photo Organizer\\test destination', 'enable_confirmation_dialogue': True, 'enable_logging': True}
- 2025-09-19 22:07:32,346 -  INFO -  file_cache is only supported with oauth2client<4.0.0
- 2025-09-19 22:07:32,352 -  DEBUG -  URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType%3D%27application%2Fvnd.google-apps.folder%27&fields=files%28id%2C+name%29&alt=json
- 2025-09-19 22:07:33,382 -  DEBUG -  phorger folder found under id: 1cCfS_h7Re6eM9OQwFOoj4UIw2fC520V2
- 2025-09-19 22:07:33,384 -  DEBUG -  URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271cCfS_h7Re6eM9OQwFOoj4UIw2fC520V2%27+in+parents+and+mimeType+%3D+%27application%2Fvnd.google-apps.folder%27&fields=files%28id%2C+name%29&alt=json
- 2025-09-19 22:07:33,686 -  DEBUG -  album folder found under id: 1XKSQC7HpOgRoE-uRCZRBG1YgbpO4-pj4
- 2025-09-19 22:07:33,686 -  DEBUG -  output file: E:\Projects (Programming)\Scripts\Photo Organizer\test source\2025-01-01 - Caturday\output\cat.jpg
- 2025-09-19 22:07:33,704 -  DEBUG -  URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&uploadType=multipart&alt=json
- 2025-09-19 22:07:36,008 -  DEBUG -  File ID: 19gWFaIBcxvsaQjMO2qXr6SFNVVZi2GHw
+ 2025-11-03 22:52:38,345 -  DEBUG -  Start of program
+ 2025-11-03 22:52:38,345 -  DEBUG -  settings successfully loaded: {'source_filepath': 'E:\\projects_programming\\Scripts\\Photo Organizer\\test source', 'destination_filepath': 'E:\\projects_programming\\Scripts\\Photo Organizer\\test destination', 'enable_confirmation_dialogue': True, 'enable_logging': True}
+ 2025-11-03 22:52:38,389 -  DEBUG -  Starting new HTTPS connection (1): oauth2.googleapis.com:443
+ 2025-11-03 22:52:38,745 -  DEBUG -  https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 400 None
