@@ -1,4 +1,8 @@
-import shutil, os, sys, logging, time
+import logging
+import os
+import shutil
+import sys
+import time
 from pathlib import Path
 
 # from tqdm import tqdm
@@ -23,7 +27,7 @@ def main(source_list: list, destination: Path, size: int, confrimation: bool):
     path_validator(destination, size)
     files_to_move = duplicate_checker(source_list, destination)
 
-    if confrimation == True:  # confirmation dialogue before moving files
+    if confrimation:  # confirmation dialogue before moving files
         while True:
             user_input = input("files ready for migrating, press y to confirm or exit:")
             if user_input == "y":
