@@ -14,5 +14,5 @@ wheels/
 log.txt
 token.json
 client_secrets.json
-"test destination"
-"test source"
+"test destination/"
+"test source/"
