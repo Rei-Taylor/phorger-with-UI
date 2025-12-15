@@ -51,6 +51,7 @@ def files_for_upload():
 
 def main(source: Path):
 
+    print("this is called")
     directory_validation(source)
     matching_list = name_matching(source)
 

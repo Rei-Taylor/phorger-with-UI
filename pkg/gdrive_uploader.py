@@ -23,7 +23,7 @@ def main(file_list):
         folder_id = folder(service)
         file_uploader(service, folder_id, file_list)
         print("upload successful!")
-        return
+        return 
 
         # logging.debug("Following Files in Drive")
         # files = test_call(service)
@@ -130,7 +130,7 @@ def file_uploader(service, folder_id, file_list):
     phorger_folder_id = folder_id
     for path_object in file_list:
         album_id = album_folder(service, phorger_folder_id, path_object.name)
-        output_file_path = path_object / "output"
+        output_file_path = path_object
         for file in output_file_path.glob(
             "*.jpg"
         ):  # uploading only jpgs found in output folder

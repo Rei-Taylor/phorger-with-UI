@@ -8,5 +8,8 @@ dependencies = [
     "google-api-python-client>=2.186.0",
     "google-auth-httplib2>=0.2.1",
     "google-auth-oauthlib>=1.2.3",
+    "nicegui>=3.4.0",
+    "param>=2.3.1",
     "pyperclip>=1.11.0",
+    "pywebview>=6.1",
 ]

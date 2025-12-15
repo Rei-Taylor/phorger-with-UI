@@ -1,4 +1,0 @@
- 2025-11-03 22:52:38,345 -  DEBUG -  Start of program
- 2025-11-03 22:52:38,345 -  DEBUG -  settings successfully loaded: {'source_filepath': 'E:\\projects_programming\\Scripts\\Photo Organizer\\test source', 'destination_filepath': 'E:\\projects_programming\\Scripts\\Photo Organizer\\test destination', 'enable_confirmation_dialogue': True, 'enable_logging': True}
- 2025-11-03 22:52:38,389 -  DEBUG -  Starting new HTTPS connection (1): oauth2.googleapis.com:443
- 2025-11-03 22:52:38,745 -  DEBUG -  https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 400 None

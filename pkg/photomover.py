@@ -57,12 +57,8 @@ def path_validator(destination: Path, size: int):
 
 def duplicate_checker(source_list: list, destination: Path) -> list:
     print("checking for duplicates...")  # checking for existing folder in destination
-    duplicates = [
-        file
-        for file in destination.iterdir()
-        if file.name == file.name
-        for file in source_list
-    ]
+    dest_names = {f.name for f in destination.iterdir()}
+    duplicates = [f for f in source_list if f.name in dest_names]
     logging.debug(f"duplicate list:\n{duplicates}")
     if duplicates:
         print("duplicate folder found at destination:")
