@@ -93,7 +93,11 @@ async def page():
 
     state = AppState()
     debugger = Logger()
-    
+
+    ui.colors(
+        primary="#6750A4"
+    )    
+
     async def on_click():
         await runner(state, debugger)
         
